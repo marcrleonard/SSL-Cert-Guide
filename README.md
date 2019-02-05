@@ -21,8 +21,8 @@ server {
   
   server_name whatever.com;
 
-  access_log /var/log/nginx/pxs_access.log;
-  error_log  /var/log/nginx/pxs_error.log;
+  access_log /var/log/nginx/sample_access.log;
+  error_log  /var/log/nginx/sample_error.log;
 
   location / {
     root /var/www/yoursite;
